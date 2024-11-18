@@ -1,0 +1,52 @@
+Existen tres tipos distintos de listas
+1. Listas desordenadas (no numeradas)
+2. Listas ordenadas (numeradas)
+3. Listas de definición 
+
+---
+
+1. Las listas desordenadas (Unordered List) van con puntos 
+
+<ul> Unordered List
+    <li> list ítem
+    <li> list ítem
+</ul> Unordered List
+
+Existen las listas desordenadas anidadas, esta es su estructura:
+
+<ul>
+    <li> list ítem
+    <ul>
+        <li> list ítem
+    </ul>
+    <li> list ítem
+</ul>
+
+2. Listas ordenadas (Ordered Lists) aparece con un numero correlativo a cada elemento
+
+<ol> Ordered Lists
+    <li> list ítem
+    <li> list ítem
+</ol> Ordered Lists
+
+Al igual que las listas desordenadas pueden ir anidadas una dentro de la otra 
+
+<ol> Ordered Lists
+    <li> list ítem
+    <ol> 
+        <li> list ítem
+    </ol>
+    <li> list ítem
+</ol> Ordered Lists
+
+3. Listas de definiciones esta compuesta en dos partes 
+El nombre de la cosa a definir en la etiqueta <dt> 
+La definición de dicha cosa en la etiqueta <dd>
+
+<dl>
+    <dt> definition term
+        <dd> definition definition 
+    <dt> definition term
+        <dd> definition definition
+</dl>
+

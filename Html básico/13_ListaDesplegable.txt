@@ -1,0 +1,9 @@
+Una lista desplegable como su nombre lo indica sirve para tener "varias opciones de respuesta" 
+Etiqueta
+<select></select>
+Dentro de la etiqueta agregamos la etiqueta <option></option>
+Y le agregamos el atributo value="" En el cual va ir el valor de la etiqueta
+Y dentro de la etiqueta lo colocamos el nombre que se mostrara en la lista desplegable
+<select>
+    <option value="Pais">Mexico</option>
+</select>

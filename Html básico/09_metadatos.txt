@@ -1,0 +1,14 @@
+Los metadatos son información que le damos al navegador para que identifique que es nuestro sitio web
+Son esenciales ya que para el navegador es una descripción de lo que es nuestro sitio
+Un metadato puede describir video, imagenes puede ser considerado un objeto 
+Descripción
+
+los metadatos se escriben dentro de head 
+<meta name="description" content="pedazo de texto del sitio web"/>
+<meta name="keywords" content="etiquetas separadas por comas, palabras claves"/>
+
+enlazar hojas de estilo 
+<link rel="stylesheet" type="text/css" href="dirección de hoja de estilos"/>
+
+<script> agregar código javaScripts <script>
+<script src="importar archivos Js"> <script>

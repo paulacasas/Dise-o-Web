@@ -1,0 +1,7 @@
+Para agregar un video lo que hacemos es utilizar la etiqueta 
+<video></video>
+Se le agrega el atributo src=""
+<video src="Dirección de enlace"></video>
+Se le agrega el atibuto controls (no le agregamos valor)
+Es para acceder a los controles del video tales como pausar, reproducir, volumen, etc.
+<video src="Dirección de enlace" controls></video>

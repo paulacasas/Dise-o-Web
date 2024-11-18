@@ -1,0 +1,4 @@
+Un div es un separador que sirve para agrupar un contenido especifico
+etiqueta 
+<div></div>
+Separar contenido a nivel semantico

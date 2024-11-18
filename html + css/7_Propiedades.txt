@@ -1,0 +1,13 @@
+text-align: ubicación del texto 
+- Estas 
+left 
+right
+center
+justify
+
+text-decoration: diferente decoración del texto 
+- Estas 
+none
+underline (subrayado)
+overline (tachado arriba)
+line-through (tachado)

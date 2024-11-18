@@ -1,0 +1,21 @@
+Las tablas se utilizan en html para poder tabular contenido (mostrar estadísticas, valores, etc.)
+Para crear las tablas utilizamos la siguiente etiqueta
+<table> </table>
+
+Las tablas están compuestas de columnas y filas
+Para crear filas utilizamos la siguiente etiqueta
+Las filas van hacia abajo
+<tr> </tr>
+
+Para crear columnas utilizamos la siguiente etiqueta
+Las columnas van hacia el lado
+<td> </td> 
+
+---
+
+Estructura de las tablas 
+<table> así se inician las tablas
+<tr> Una fila
+<td> </td> Se agrega la columna 
+</tr> Se cierra la fila 
+</table> cuando finalize se cierra 

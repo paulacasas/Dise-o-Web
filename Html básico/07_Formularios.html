@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Etiquetas básicas -->
+    <meta charset="utf-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="color" name="">
+        <!--Agregar una barra de rango-->
+        <input type="range" min="5" y max="10">
+        <input type="date">
+        <input type="time">
+    </form>
+    <p>Los formularios sirven para que el usuario pueda interactuar</p>
+    <!--Forma base de un formulario-->
+    <form action="" method="">
+        <!--En el atributo type especificamos el tipo de dato que vamos a recibir-->
+        <input type="text" required="">
+    </form>
+
+    <form>
+        <!--Label sirve para dar clic en el contenido de la etiqueta y me lleve a la caja para ingresar datos-->
+        <label for="Nombre">Ingrese su nombre:</label>
+        <input type="text" id="Nombre">
+
+        <!--Ingresar datos de modo de contraseña (se ven puntos o asteriscos)-->
+        <input type="password">
+
+        <!--Comprobar que un correo sea correcto-->
+        <input type="email">
+
+        <!--Nos permite agregar una casilla-->
+        <input type="checkbox"> Hombre
+        <input type="checkbox"> Mujer
+
+        <!--Un radio es un botón para seleccionar un valor-->
+        <input type="radio"> Hombre
+        <input type="radio"> Mujer
+
+        <!--Un botón, no realiza ninguna acción-->
+        <input type="button" value="enviar">
+
+        <!--Un botón que envía datos (tiene un valor por defecto)-->
+        <input type="submit">
+
+        <!--Crear listas desplegables-->
+        <select>
+            <option value="Mexico">Mexico</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Colombia">Colombia</option>
+            <option value="España">España</option>
+            <option value="Honduras">Honduras</option>
+        </select>
+
+        <!--Nos permite elegir un color-->
+        <input type="color">
+
+    </form>
+
+    <br>
+    <form>
+        <!--Agrega un cuadro de texto que podemos modificar de tamaño-->
+        <textarea></textarea>
+        <!--Mostrar cuaadro de texto que no se pueda modificar-->
+        <textarea readonly=""></textarea>
+    </form>
+</body>
+
+</html>

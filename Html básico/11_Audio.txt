@@ -1,0 +1,5 @@
+Para agregar un audio en html utilizamos la etiqueta
+<audio></audio>
+Le agregamos el atributo src="" para colocar la dirección de enlace y el atributo controls 
+<audio src="Enlace" controls></audio>
+

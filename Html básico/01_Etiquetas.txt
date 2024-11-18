@@ -1,0 +1,54 @@
+<html> Indica el comienzo de la página
+<head> Contiene información más descriptiva sobre el sitio (que no se muestra)
+<body> Conforma todos los elementos visibles de la página
+
+<title> El nombre de la pagina 
+
+<h1> Para el encabezado (va hasta h6)
+<br/> Salto de línea
+<center> Centrar las cosas
+<p> Agregar párrafos (no hay necesidad de cerrarlo)
+<b> Agregar negritas
+<strong> Agregar negritas (para que la palabra quede destacada)
+<span> 
+<i> Fuente en cursiva 
+---  <em> Fuente en cursiva
+
+<blockquote> Agregar y destacar una cita hacia algún articulo 
+<cite> Autor de quien escribió la cita (aparece en cursiva)
+
+<hr> o <hr/> Agregar una linea separadora
+
+<pre> Texto que va aparecer preformatiado con formato Courier (tipo maquina de escribir), tiene en cuenta los espaciados y las tabulaciones
+<tt> Texto que también aparece en formato Courier (maquina de escribir) solo que este no esta preformatiado
+
+<a href=""> Para redirigir a otra página
+<a target="_blank" href=""></a> Los atributos de la etiqueta son para que se abra en otra pestaña
+<link rel="shortcut icon" type="image/x-icon" href="Nombre del icono"> Para colocar un icono a nuestro sitio web 
+
+<ul> Lista desordenada
+    <li> Elemento de la lista
+</ul>
+
+<ol>Lista ordenada
+    <li> Elemento de la lista
+</ol>
+
+<dl> Lista de definición
+    <df> definición termino
+        <dd> definición definición
+</dl>
+
+<table> Creación de la tabla
+    <tr> Primera fila
+        <td>Primer columna</td>
+    </tr>
+</table>
+
+<form> </form> mira el apartado de formularios
+
+<div>Separador de contenido (se utiliza para contenido gráfico)</div>
+
+
+
+

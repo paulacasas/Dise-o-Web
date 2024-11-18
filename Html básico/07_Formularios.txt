@@ -1,0 +1,71 @@
+Los formulario son una parte de nuestro sitio web en la cual el usuario puede interactuar
+
+Etiqueta <form> </form>
+Dentro de esta etiqueta podemos colocar atributos
+Los dos atributos mas importantes para la etiqueta <form> son:
+action="Procesa toda la información" Recibe como valor una url que se encarga de procesar los datos del formulario
+method="post o get" Por que método vamos a enviar nuestra información 
+
+Estructura de los formularios: 
+<form action="" method=""> </form>
+
+Dentro de la etiqueta <form> agregamos la etiqueta <input>
+Input es para ingresar datos (Entrada de datos) 
+Podemos colocar varios atributos que nos ayudan a que el formulario este más completo
+El atributo type= "" sirve para especificar el tipo de entrada queremos
+
+Ejemplos de valores para type:
+type="text" Entrada de texto 
+type="password" Define un campo de contraseña (los caracteres están enmascarados)
+type="number" Escribir numeros (tipo cantidad)
+type="email" Dirección de correo  
+type="color" Deja seleccionar un color cualquiera
+type="range" Elegir un número entre un rango
+Este contienine los atributos de min="" y max=""
+Para elegir de cuanto a cuanto va el rango
+type="date" Poner una fecha
+type="time"  Poner una hora
+type="button" Un botón que no realiza ninguna acción (lleva atributo value)
+type="button" value="nombre" el valor que va en value es lo que se muestre en el botón
+type="submit" Un botón que envía datos (ya tiene valor predeterminado)
+type="checkbox" Nos permite agregar una casilla
+type="radio" Un botón para seleccionar un valor
+
+**A todos los tipos de datos anteriores lo podemos agregar el atributo required="" que hace que sea obligatorio enviar el formulario con algun tipo de valor**
+
+Otros atributos
+value="" Va escrito como valor en la caja de texto (valor por defecto)
+placeholder="" Va escrito de forma transparente
+size="" Modificar el tamaño  del formulario (mejor con css)
+maxlength="" Establecer cuanto va ser el máximo de largo de caracteres 
+name="" Establecer al servidor que valor estamos pidiendo 
+id="" Nombre del identificador único (no debe repetirse)
+Antes del <form> utilizamos la etiqueta <label> que sirve para asignar la pregunta 
+en ella, recibe el atributo for y dentro de el colocamos lo que va en la id del <input>
+class=""  
+
+Para crear listas desplegables utilizamos la etiqueta <select> </select>
+Dentro de la lista agregamos el atributo value="nombre del valor" y el contenido de la etiqueta sera el nombre del valor
+Estructura de las listas desplegables:
+
+<select>
+    <option value="nombre del valor">nombre del valor</option>
+    <option value="nombre del valor">nombre del valor</option>    <option value="nombre de otro valor">nombre del otro valor</option>
+</select>
+
+Esta etiqueta también funciona com un input pero de una forma un poco diferente
+Agrega un cuadro de texto que podemos modificar de tamaño
+<textarea></textarea> 
+Mostrar cuadro de texto que no se pueda modificar
+<textarea readonly=""></textarea>
+
+---
+
+Estructura básica de formularios 
+
+<form> Abrimos la etiqueta
+<label for="nombre del id"> <label> La etiqueta label funciona con id en el input, su función es que podamos dar clic en el nombre y nos lleve al cuadro de texto
+<input type="valor"> Agregamos el input que pide ingresar datos, con el atributo type le especificamos el tipo de dato a recibir   
+</form>
+
+

@@ -1,0 +1,24 @@
+font-family: esta es el estilo de letra
+- Fuentes comunes 
+Arial
+Arial Black
+Arial Narrow
+Courier New
+Georgia
+Impact
+Tahoma
+Times New Roman
+Verdana
+
+font-size: tamaño de texto
+font-style: estilo de fuente
+- Estilos 
+normal
+italic (Cursiva)
+oblique
+
+font-weight: grosor del texto
+font-variant: variaciones de estilo de fuente
+- Tipos
+small-caps
+normal

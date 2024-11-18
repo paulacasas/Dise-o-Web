@@ -1,0 +1,137 @@
+La base de toda página html son las etiquetas
+Html = lenguaje de etiquetas para hipertexto
+
+Antes de iniciar cualquier documento HTML se debe agregar la etiqueta: 
+<!DOCTYPE html>
+
+Los meta datos se utilizan para  suministrar información sobre los datos producidos
+<meta charset="utf-8"> <!-- Lenguaje de Europa occidental -->
+<meta name="description" content="Página con metadatos">
+<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+<meta name="author" content="Paula Casas">
+
+Html: contiene todo el documento
+Head: se agrega información no visible de la página web
+Body: se agrega la información que se muestra en la página web
+
+Para crear comentarios en html utilizamos la etiqueta: <!-- -->
+
+Una etiqueta es un fragmento en código que representa algo en un sitio web
+puede representar un botón, un campo de texto, etc.
+
+Cada etiqueta tiene su propio nombre, tiene un contenido, puede ser un texto o cualquier 
+otra cosa, también puede tener atributos, forma base: < > </ >
+
+<etiqueta atributos ="valor"> contenido </etiqueta>
+
+<h1> </h1> Primer etiqueta para escribir texto, solo se utiliza una vez por página 
+
+---
+
+<html> Indica el comienzo de la página (todo tiene que ir dentro de esta)
+<head> Contiene información más descriptiva sobre el sitio (info que el usuario no ve)
+<body> Conforma todos los elementos visibles de la página
+
+<html> 
+
+    <head>
+    <!-- Información que el usuario no puede ver a primera vista -->
+    <title>Nombre de la página del sitio web</title>
+    </head> 
+
+    <body>
+        <!-- Esto es el encabezado de la pagina web (si se visualizan) -->
+        <h1>Titulo</h1> Solo se puede agregar uno por página
+        <h2>Subtitulo</h2> (va hasta 6)
+
+        <p>Esto es un párrafo, sirve para agregar cualquier tipo de texto
+        dentro de la página web 
+        </p>
+
+    </body>
+
+</html>
+
+--- 
+
+Algunas etiquetas (ver en el apartado de etiquetas)
+Dar un salto de linea: <br/> 
+Centrar un texto: <center> </center>
+Agregar una linea separadora: <hr/>
+
+---
+
+Se puede agregar texto sin carácter especial sin colocar etiqueta de párrafo
+
+---
+
+Significados 
+texto preformatiado: Que no se modifica, se muestra tal como se escribió
+unordered lists: listas desordenadas
+list ítem: lista de elementos
+ordered lists: listas ordenadas 
+
+---
+
+Links
+Para redirigir a los usuarios a otra parte del sitio web utilizamos la etiqueta <a> con el atributo href
+<a href="link"> nombre del link </a>
+
+Para redirigir al usuario y abrir otra página sin cerrar nuestro sitio web 
+<a target ="_blank" href="link"> nombre del link </a>
+
+Para agregar nuestro propio icono en nuestro sitio web 
+<link rel="shortcut icon" type="image/x-icon" href="Nombre del icono">
+
+---
+
+Listas
+1. Listas desordenadas (no numeradas) unordered lists
+<ul>
+    <li> list ítem 
+    <li> list ítem
+</ul>
+
+2. Listas ordenadas (numeradas) ordered lists
+<ol>
+    <li> list ítem
+    <li>  list ítem
+</ol>
+
+3. Lista de definición 
+<dl>
+<dt> definition term
+    <dd> definition definition
+<dt> definition term
+    <dd> definition definition
+</dl>
+
+---
+
+Caracteres especiales
+&lt; = < less than (menor que)
+&gt; = > greater than (mayor que)
+&amp; = & (ampersand)
+&quot; = " (double quotation)
+&nbsp; = espacio no rompible (non breaking space)
+
+Los códigos de las vocales acentuadas comienzan con & seguida de la letra ya sea en mayúscula o minúscula luego acute y termina con ;
+&aacute; = á  &Aacute; = Á
+&iacute; = í  &Iacute; = í
+
+Otros códigos
+&ntilde; = ñ  &Ntilde; Ñ 
+
+---
+
+Tablas
+Están compuestas de dos componentes
+1. Filas --> van hacia abajo
+2. Columnas --> van hacia el lado
+
+Iniciamos con la etiqueta 
+<table> 
+Luego agregamos la etiqueta de las filas 
+<tr>
+Y luego la etiqueta de las columnas
+<td>

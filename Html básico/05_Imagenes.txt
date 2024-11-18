@@ -1,0 +1,19 @@
+Para agregar imágenes en muestro documento y que se visualicen en la página web
+debemos utilizar la siguiente etiqueta <img /> en ella agregamos el atributo SRC que es para colocar la ruta de la imagen 
+
+NOTA: La imagen debe estar en la misma carpeta del archivo HTML
+atributos que utilizamos en las imágenes 
+src= Ruta de la imagen (obligatorio)
+alt= Descripción de lo que dice la imagen (necesario)
+title= Descripción de lo que es la imagen 
+
+<img src="Ruta de la imagen"/>
+
+Atributos para arreglar el tamaño de la imagen, para el ancho (width) y el alto (height)
+
+<img src="Ruta de la imagen" width="Ancho de la imagen" height ="Alto de la imagen" />
+
+---
+
+También podemos agregar imágenes de la web copiando la dirección de la imagen
+<img src="Dirección de la imagen web" />
